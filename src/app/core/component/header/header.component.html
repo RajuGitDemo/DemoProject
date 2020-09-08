@@ -1,0 +1,9 @@
+<mat-toolbar>
+
+  <button mat-button [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="raju();">Item 1</button>   
+  </mat-menu>
+</mat-toolbar>
